@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                style="@style/layout_item_style.layout_field_names"
+                android:text="@string/user_first_name"
+                />
+            <TextView
+                android:id="@+id/tv_user_first_name_AUS"
+                style="@style/layout_item_style.layout_field"
+                android:text="@string/user_first_name"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                style="@style/layout_item_style.layout_field_names"
+                android:text="@string/user_last_name"
+                />
+            <TextView
+                android:id="@+id/tv_user_last_name_AUS"
+                style="@style/layout_item_style.layout_field"
+                android:text="@string/user_last_name"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                style="@style/layout_item_style.layout_field_names"
+                android:text="@string/user_gender"
+                />
+            <TextView
+                android:id="@+id/tv_user_gender_AUS"
+                style="@style/layout_item_style.layout_field"
+                android:text="@string/user_gender"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                style="@style/layout_item_style.layout_field_names"
+                android:text="@string/user_age"
+                />
+            <TextView
+                android:id="@+id/tv_user_age_AUS"
+                style="@style/layout_item_style.layout_field"
+                android:text="@string/user_age"
+                />
+        </LinearLayout>
+
+        <LinearLayout android:orientation="horizontal"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                style="@style/layout_item_style.layout_field_names"
+                android:text="@string/user_number"
+                />
+            <TextView
+                android:id="@+id/tv_user_phone_AUS"
+                style="@style/layout_item_style.layout_field"
+                android:text="@string/user_number"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

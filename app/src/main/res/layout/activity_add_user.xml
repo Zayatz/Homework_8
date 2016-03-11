@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/et_add_first_name_AUA"
+        style="@style/layout_item_style.input_style"
+        android:hint="@string/user_first_name"
+        />
+    <EditText
+        android:id="@+id/et_add_last_name_AUA"
+        style="@style/layout_item_style.input_style"
+        android:hint="@string/user_last_name"
+    />
+    <EditText
+        android:id="@+id/et_add_gender_AUA"
+        style="@style/layout_item_style.input_style"
+        android:hint="@string/user_gender"
+        android:maxLength="7"
+    />
+    <EditText
+        android:id="@+id/et_add_age_AUA"
+        style="@style/layout_item_style.input_style"
+        android:hint="@string/user_age"
+        android:inputType="number"
+        android:maxLength="2"
+    />
+    <EditText
+        android:id="@+id/et_add_number_AUA"
+        style="@style/layout_item_style.input_style"
+        android:hint="@string/user_number"
+        android:inputType="phone"
+        android:maxLength="12"
+    />
+    <Button
+        android:id="@+id/btn_create_user_AUA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_create_btn"
+        android:layout_gravity="center_horizontal"
+    />
+
+</LinearLayout>

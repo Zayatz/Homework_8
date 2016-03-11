@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Homework_8</string>
+    <string name="ab_add_btn">Add user</string>
+    <string name="user_first_name">First name</string>
+    <string name="user_last_name">Last name</string>
+    <string name="user_age">Age</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_number">Phone number</string>
+    <string name="user_create_btn">Create</string>
+    <string name="user_empty_must_fields">Last name and phone number must be added</string>
+    <string name="user_wrong_gender_input">Wrong gender, must be male or female</string>
+
+</resources>
